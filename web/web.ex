@@ -18,10 +18,10 @@ defmodule UeberauthExample.Web do
 
   def model do
     quote do
-      use Ecto.Model
+      #use Ecto.Model
 
-      import Ecto.Changeset
-      import Ecto.Query, only: [from: 1, from: 2]
+      #import Ecto.Changeset
+      #import Ecto.Query, only: [from: 1, from: 2]
     end
   end
 
@@ -30,8 +30,8 @@ defmodule UeberauthExample.Web do
       use Phoenix.Controller
 
       alias UeberauthExample.Repo
-      import Ecto
-      import Ecto.Query, only: [from: 1, from: 2]
+      #import Ecto
+      #import Ecto.Query, only: [from: 1, from: 2]
 
       import UeberauthExample.Router.Helpers
     end
@@ -64,8 +64,8 @@ defmodule UeberauthExample.Web do
       use Phoenix.Channel
 
       alias UeberauthExample.Repo
-      import Ecto.Model
-      import Ecto.Query, only: [from: 1, from: 2]
+      #import Ecto.Model
+      #import Ecto.Query, only: [from: 1, from: 2]
     end
   end
 

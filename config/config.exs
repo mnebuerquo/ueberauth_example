@@ -20,7 +20,7 @@ config :logger, :console,
   metadata: [:request_id]
 
 # Configure the Ecto Repos
-config :ueberauth_example, ecto_repos: [UeberauthExample.Repo]
+#config :ueberauth_example, ecto_repos: [UeberauthExample.Repo]
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

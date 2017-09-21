@@ -37,9 +37,5 @@
       Sign in with Twitter
     </a>
 
-    <a class="btn btn-primary btn-lg" href="/auth/identity">
-      <i class="fa fa-user"></i>
-      Sign in with Username/Password
-    </a>
   <% end %>
 </div>
